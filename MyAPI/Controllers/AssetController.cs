@@ -71,6 +71,7 @@ namespace MyAPI.Controllers
             appDb.SaveChanges();
             return Ok();
             //mayur laptop data1
+            //this is from branch1
         }
     }
 }
