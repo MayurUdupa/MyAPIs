@@ -58,6 +58,7 @@ namespace MyAPI.Controllers
             existingData.ItemName = asset.ItemName;
             appDb.SaveChanges();
             return Ok();
+            //changes done in branch 1 with some new features
         }
 
         [HttpDelete("id")]
@@ -72,6 +73,7 @@ namespace MyAPI.Controllers
             return Ok();
             //mayur laptop data1
             //this is from branch1
+            //some changes from master            
         }
     }
 }
