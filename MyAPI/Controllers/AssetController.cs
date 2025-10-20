@@ -69,7 +69,7 @@ namespace MyAPI.Controllers
 
             appDb.Assets.Remove(data);
             appDb.SaveChanges();
-            return Ok();
+            return Ok("info1");
             //mayur laptop data1
         }
     }
