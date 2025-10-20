@@ -6,7 +6,7 @@ using MyAPI.Model;
 
 namespace MyAPI.Controllers
 {
-    [ApiController]
+    [ApiController] //from mayur PC
     [Route("api/[controller]")]
     public class AssetController : Controller
     {
